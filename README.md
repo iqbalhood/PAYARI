@@ -16,14 +16,16 @@ http://188.166.177.2/payari/www/
   <img src="screenshot/1.png" height="500" alt="" />
   <img src="screenshot/2.png" height="500" alt="" />
   <img src="screenshot/3.png" height="500" alt="" />
-  <img src="screenshot/4.png" height="500" alt="" /> 
+  
 </p>
 <p align="center">
+  <img src="screenshot/4.png" height="500" alt="" /> 
   <img src="screenshot/5.png" height="500" alt="" />
   <img src="screenshot/6.png" height="500" alt="" />
+</p>
+<p align="center">
   <img src="screenshot/7.png" height="500" alt="" />
 </p>
-
 
 ### Contribution Process
 
