@@ -34,7 +34,8 @@ var ParentalPage = (function () {
     };
     ParentalPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-parental',template:/*ion-inline-start:"/Users/mac/Documents/REPO/PAYARI/src/pages/parental/parental.html"*/'<!--\n  Generated template for the ParentalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Parental Control</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n\n    <ion-list>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Shopping</h2>\n          <p>e.g. Fashion, Cosmetics,etc</p>\n          <button ion-button color="danger" item-end>Blocked</button>\n        </ion-item>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Premium Places</h2>\n          <p>e.g. Hotels, Spa, Hotels, etc</p>\n          <button ion-button color="danger" item-end>Blocked</button>\n        </ion-item>\n        \n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Fuel</h2>\n          <p>e.g. SPBU, etc</p>\n          <button ion-button color="secondary" item-end>Allowed</button>\n        </ion-item>\n        \n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Entertainment</h2>\n          <p>e.g. Theatre, Concert, etc</p>\n          <button ion-button color="secondary" item-end>Allowed</button>\n        </ion-item>\n        \n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Drink</h2>\n          <p>e.g. Coffee Shop, Ice Cream etc</p>\n          <button ion-button color="secondary" item-end>Allowed</button>\n        </ion-item>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Food</h2>\n          <p>e.g. Restaurant, Sushi,  etc</p>\n          <button ion-button color="secondary" item-end>Allowed</button>\n        </ion-item>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="assets/imgs/logo.png">\n          </ion-thumbnail>\n          <h2>Toys </h2>\n          <p>e.g. Manga, action figure etc</p>\n          <button ion-button color="secondary" item-end>Allowed</button>\n        </ion-item>\n      </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/mac/Documents/REPO/PAYARI/src/pages/parental/parental.html"*/,
+            selector: 'page-parental',
+            templateUrl: 'parental.html',
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ParentalPage);
@@ -52,7 +53,6 @@ var ParentalPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(199);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,7 +62,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
 
 
 /**
@@ -80,16 +79,16 @@ var LoginPage = (function () {
         console.log('ionViewDidLoad LoginPage');
     };
     LoginPage.prototype.goHome = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__["a" /* DashboardPage */]);
+        this.navCtrl.setRoot("DashboardPage");
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"/Users/mac/Documents/REPO/PAYARI/src/pages/login/login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Login</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class="loginpage">\n  <p class="front-message">Discover the easiest way to manage and control your kids spend their money </p>\n  <button ion-button color="light" round full class="mrgbtn" (click)="goHome()">Login With Phone Number</button>\n</ion-content>\n'/*ion-inline-end:"/Users/mac/Documents/REPO/PAYARI/src/pages/login/login.html"*/,
+            selector: 'page-login',
+            templateUrl: 'login.html',
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], LoginPage);
     return LoginPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=login.js.map
@@ -162,25 +161,21 @@ webpackEmptyAsyncContext.id = 113;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../pages/inputphone/inputphone.module": [
-		276,
-		1
-	],
 	"../pages/login/login.module": [
 		278,
-		4
+		10
 	],
 	"../pages/parental/parental.module": [
 		277,
-		3
+		9
 	],
 	"../pages/rumah/rumah.module": [
 		279,
-		0
+		7
 	],
 	"../pages/topup/topup.module": [
 		280,
-		2
+		8
 	]
 };
 function webpackAsyncContext(req) {
