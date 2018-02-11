@@ -1,17 +1,14 @@
 # PAYARI
-## ENGLISH
+<h4> ENGLISH </h4>
 An app that helps parents to make payments and controls the child's needs through mobile phones.
 This application is built using Progressive Web Apps technology. You can access the prototype of this application at the following link
 
-## INDONESIA
+<h4> INDONESIA </h4>
 Sebuah aplikasi yang membantu orang tua untuk melakukan pembayaran dan kontrol akan kebutuhan anak melalui ponsel. 
 Aplikasi ini dibangun menggunakan teknologi Progressive Web Apps. Anda Dapat mengakses prototype aplikasi ini pada link berikut
 
 http://188.166.177.2/payari/www/ 
 (Best View On Mobile Phone)
-
-
-
 
 ## Demo
 
