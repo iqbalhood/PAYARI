@@ -25679,7 +25679,7 @@ ion-navbar.toolbar {
 }
 
 .content {
-  background-color: #cccccc;
+  background-color: #e2e0e0;
 }
 
 .row-balance {
@@ -25744,6 +25744,10 @@ ion-navbar.toolbar {
   text-align: center;
   color: white;
   font-size: 2.6ex;
+}
+
+page-parental .content {
+  background-color: #ffffff;
 }
 
 .balance-text-left {
