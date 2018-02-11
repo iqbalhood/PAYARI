@@ -10,6 +10,17 @@ Aplikasi ini dibangun menggunakan teknologi Progressive Web Apps. Anda Dapat men
 http://188.166.177.2/payari/www/ 
 (Best View On Mobile Phone)
 
+## THIS APPS USE TELKOM XSIGHT API 
+[ArcGIS](http://www.telkomxsight.com/in/web/telkom/telkomapi-docs?apiName=ArcGIS&version=0.0.2)
+[SMS OTP](http://www.telkomxsight.com/in/web/telkom/telkomapi-docs?apiName=SMSOTP&version=1.0.1)
+[SMS NOTIFICATION](http://www.telkomxsight.com/in/web/telkom/telkomapi-docs?apiName=SMSNotification&version=1.0.0)
+[TMoney](http://www.telkomxsight.com/in/web/telkom/telkomapi-docs?apiName=TMoney&version=1.0.0-sandbox)
+
+
+
+
+
+
 ## Demo
 
 <p align="center">
