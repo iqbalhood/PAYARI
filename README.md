@@ -13,15 +13,15 @@ http://188.166.177.2/payari/www/
 ## Demo
 
 <p align="center">
-  <img src="screnshot/1.png" height="500" alt="" />
-  <img src="screnshot/2.png" height="500" alt="" />
-  <img src="screnshot/3.png" height="500" alt="" />
-  <img src="screnshot/4.png" height="500" alt="" /> 
+  <img src="screenshot/1.png" height="500" alt="" />
+  <img src="screenshot/2.png" height="500" alt="" />
+  <img src="screenshot/3.png" height="500" alt="" />
+  <img src="screenshot/4.png" height="500" alt="" /> 
 </p>
 <p align="center">
-  <img src="screnshot/5.png" height="500" alt="" />
-  <img src="screnshot/6.png" height="500" alt="" />
-  <img src="screnshot/7.png" height="500" alt="" />
+  <img src="screenshot/5.png" height="500" alt="" />
+  <img src="screenshot/6.png" height="500" alt="" />
+  <img src="screenshot/7.png" height="500" alt="" />
 </p>
 
 
